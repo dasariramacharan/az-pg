@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdHelloAzure", "RdHelloAzure\RdHelloAzure.csproj", "{A52D7973-7BB4-4A52-BE1C-0639EACF552D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RdHelloAzure", "RdHelloAzure\RdHelloAzure.csproj", "{A52D7973-7BB4-4A52-BE1C-0639EACF552D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdHelloFunctions", "RdHelloFunctions\RdHelloFunctions.csproj", "{DF8CFDC9-ECA6-444C-ADB8-650AD88CD9E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A52D7973-7BB4-4A52-BE1C-0639EACF552D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A52D7973-7BB4-4A52-BE1C-0639EACF552D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A52D7973-7BB4-4A52-BE1C-0639EACF552D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8CFDC9-ECA6-444C-ADB8-650AD88CD9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8CFDC9-ECA6-444C-ADB8-650AD88CD9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8CFDC9-ECA6-444C-ADB8-650AD88CD9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8CFDC9-ECA6-444C-ADB8-650AD88CD9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
