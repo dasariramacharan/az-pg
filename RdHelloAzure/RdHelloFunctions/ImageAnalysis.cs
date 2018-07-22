@@ -12,8 +12,14 @@ namespace RdHelloFunctions
     public static class ImageAnalysis
     {
         [FunctionName("ImageAnalysis")]
-        public static async void Run([BlobTrigger("images/{name}", Connection = "rdhellostorage")]
-                                CloudBlockBlob blob, string name, TraceWriter log)
+        public static async void Run(
+            //input Bindings
+            [BlobTrigger("images/{name}", Connection = "rdhellostorage")]
+                                CloudBlockBlob blob, string name, TraceWriter log,
+            
+            //ouput Bindings
+            [CosmosDB("rdhelloazure","images",ConnectionStringSetting ="rddb")]
+             IAsyncCollector<FaceAnalysisResult> result)
         {
             log.Info($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {blob.Properties.Length} Bytes");
 
@@ -25,7 +31,7 @@ namespace RdHelloFunctions
             //TODO: test running this code with test data 
 
             var faces = await GetAnalysisAsync(url);
-
+            await result.AddAsync(new FaceAnalysisResult { Faces = faces, ImageId = blob.Name });
         }
 
         public static async Task<Face[]> GetAnalysisAsync(string url)
