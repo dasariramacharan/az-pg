@@ -37,11 +37,30 @@ docker container ls -aq
   *   docker  run username/repository:tag                   # Run image from a registry
 
 
+  *   docker stack ls                                            # List stacks or apps
+  *   docker stack deploy -c <composefile> <appname>  # Run the specified Compose file
+  *   docker service ls                 # List running services associated with an app
+  *   docker service ps <service>                  # List tasks associated with an app
+  *   docker inspect <task or container>                   # Inspect task or container
+  *   docker container ls -q                                      # List container IDs
+  *   docker stack rm <appname>                             # Tear down an application
+  *   docker swarm leave --force      # Take down a single node swarm from the manager
 
-Location where Images are stored => C:\Users\Public\Documents\Hyper-V\Virtual hard disks
+=> Location where Images are stored => C:\Users\Public\Documents\Hyper-V\Virtual hard disks
 
-On Windows, explicitly stop the container
+=> **On Windows, explicitly stop the container**
                       On Windows systems, CTRL+C does not stop the container. So, first type CTRL+C to get the prompt back (or open another shell), then type docker container ls to list the running containers, followed by docker container stop <Container NAME or ID> to stop the container. Otherwise, you get an error response from the daemon when you try to re-run the container in the next step.
+
+=>  
+
+=>**Services**
+    The true implementation of a container in production is running it as a service. Services codify a container’s behavior in a Compose file (yaml), and this file can be used to scale, limit, and redeploy our app. 
+    Compose files are used to define applications with Docker, and can be uploaded to cloud providers using Docker Cloud, or on any hardware or cloud provider you choose with **Docker Enterprise Edition**.
+
+
+=>
+
+
 
 
 
