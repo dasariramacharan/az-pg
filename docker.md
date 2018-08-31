@@ -46,6 +46,12 @@ docker container ls -aq
   *   docker stack rm <appname>                             # Tear down an application
   *   docker swarm leave --force      # Take down a single node swarm from the manager
 
+ref:https://docs.docker.com/get-started/part4/
+  
+
+
+
+
 => Location where Images are stored => C:\Users\Public\Documents\Hyper-V\Virtual hard disks
 
 => **On Windows, explicitly stop the container**
