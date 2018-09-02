@@ -8,4 +8,7 @@ Must watch: [Watch an Exam Prep session from Microsoft Ignite 2017](https://yout
 
 Buy the exam at https://www.microsoft.com/en-us/learning/offers.aspx?icid=msl_bnr_progressiveoffer_usen_banner_exampage#faq-exam-replay
 
+More courses at https://www.edx.org/learn/azure or even https://www.edx.org/school/microsoft
+
+
 
