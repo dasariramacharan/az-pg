@@ -35,8 +35,12 @@
            * can apply access control to all services in your resource group because Role-Based Access Control (RBAC) is natively integrated into the management platform.
            * use tags to organise 
            * Can clarify your organization's billing => Can view costs for a group of resources sharing the same tag.
-           
-           
+        *There are some important factors to consider when defining your resource group:
+All the resources in your group should share the same lifecycle. You deploy, update, and delete them together. If one resource, such as a database server, needs to exist on a different deployment cycle it should be in another resource group.
+           * You can add or remove a resource to a resource group at any time.
+                                                                                 
+           *  move a resource from one resource group to another group                                                                       
+                                                  
            
            
            
