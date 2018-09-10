@@ -20,9 +20,9 @@ You can use the activity logs to find an error when troubleshooting or to monito
 You can filter the logs by many different values including which user initiated the operation. 
    
 ##Custom policies
-      You define policies with JSON and then apply those policies either across your subscription or within a resource group. Policies are different than role-based access control because they're applied to resource types.
-   e.g : * naming convention on resources, 
-         * limit which types and instances of resources can be deployed, 
-         * or limit which regions can host a type of resource.
-         * You can require a tag value on resources to organize billing by departments.       
+      You define policies with JSON and then apply those policies either across your subscription or within a resource group. Policies are different than role-based access control because they're applied to resource types. Policies help reduce costs and maintain consistency in your subscription.
+   e.g : *   naming convention on resources, 
+         *   limit which types and instances of resources can be deployed, 
+         *   limit which regions can host a type of resource.
+         *   You can require a tag value on resources to organize billing by departments.       
         
