@@ -4,13 +4,7 @@
     After you receive the email confirmation that the billing service is turned on for your subscription,
     visit the Subscriptions page in the account portal. 
     Click the subscription you want to monitor, and then click Alerts. Next you can add alerts (upto total of 5 alerts/subscription).
-    
-            
-## Tags
-   * Resources do not need to reside in the same resource group to share a tag.
-   * Create your own tag taxonomy
-
-        
+         
 ##  Access Control
   * Azure provides the following four platform roles:
       *  Owner - can manage everything, including access
