@@ -25,4 +25,9 @@ You can filter the logs by many different values including which user initiated 
          *   limit which types and instances of resources can be deployed, 
          *   limit which regions can host a type of resource.
          *   You can require a tag value on resources to organize billing by departments.       
-        
+
+##Enables Access Control
+       Resource Manager enables you to control who has access to specific actions for your organization. It natively integrates role-based access control (RBAC) into the management platform and applies that access control to all services in your resource group. 
+
+##Tags
+Resource Manager provides a tagging feature that enables you to categorize resources according to your requirements for managing or billing. Use tags when you have a complex collection of resource groups and resources, and need to visualize those assets in the way that makes the most sense to you.
