@@ -11,9 +11,7 @@
         * [Azure PowerShell](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy)
         * [Azure CLI](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-cli)
         * [Azure portal](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-portal)
-        * [Resource Manager REST API](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-rest)  
-        
-        
+        * [Resource Manager REST API](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-rest)         
 ## [Activity logs](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-audit)
       Resource Manager logs all operations that create, modify, or delete a resource.
 You can use the activity logs to find an error when troubleshooting or to monitor how a user in your organization modified a resource.
@@ -31,3 +29,8 @@ You can filter the logs by many different values including which user initiated 
 
 ##Tags
 Resource Manager provides a tagging feature that enables you to categorize resources according to your requirements for managing or billing. Use tags when you have a complex collection of resource groups and resources, and need to visualize those assets in the way that makes the most sense to you.
+
+##SDKs or REST API
+Azure SDKs are available for multiple languages and platforms. e.g Azure SDK for .NET/JAVA/Node.js ,etc
+If the SDK doesn't provide the required functionality, you can also call to the Azure REST [API](https://docs.microsoft.com/rest/api/resources/) directly.
+   
