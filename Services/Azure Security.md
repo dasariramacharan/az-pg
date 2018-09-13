@@ -18,4 +18,11 @@ These tools and capabilities help make it possible to create secure solutions on
  You can configure OMS Security & Compliance to automatically carry out specific actions when a specific event is detected
 
 * Azure Resource Manager
+  Resource Manager provides security, auditing, and tagging features to help you manage your resources after deployment.Azure Resource Manager template-based deployments help improve the security of solutions deployed in Azure because standard security control settings and can be integrated into standardized template-based deployments. 
+  
+* Application Insights  
+  Application Insights is an extensible Application Performance Management (APM) service for monitoring your live web applications and automatically detect performance anomalies.The service sends you emails if there are any changes in the availability and performance of your app.
+  
+*  
+  
   
