@@ -23,6 +23,7 @@ These tools and capabilities help make it possible to create secure solutions on
 * Application Insights  
   Application Insights is an extensible Application Performance Management (APM) service for monitoring your live web applications and automatically detect performance anomalies.The service sends you emails if there are any changes in the availability and performance of your app.
   
-*  
+* Azure Monitor
+  Azure Monitor offers visualization, query, routing, alerting, auto scale, and automation on data both from the Azure infrastructure (Activity Log) and each individual Azure resource (Diagnostic Logs). You can use Azure Monitor to alert you on security-related events that are generated in Azure logs.
   
   
