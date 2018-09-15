@@ -26,4 +26,13 @@ These tools and capabilities help make it possible to create secure solutions on
 * Azure Monitor
   Azure Monitor offers visualization, query, routing, alerting, auto scale, and automation on data both from the Azure infrastructure (Activity Log) and each individual Azure resource (Diagnostic Logs). You can use Azure Monitor to alert you on security-related events that are generated in Azure logs.
   
-  
+* Log Analytics  
+   Log Analytics part of Operations Management Suite . Data from Azure Monitor can be routed directly to Log Analytics so you can see metrics and logs for your entire environment in one place.
+   
+* Azure Advisor
+    Azure Advisor analyzes your resource configuration and usage telemetry and provides security recommendations.
+ 
+ 
+    
+    
+    
