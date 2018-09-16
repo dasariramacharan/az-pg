@@ -32,7 +32,8 @@ These tools and capabilities help make it possible to create secure solutions on
 * Azure Advisor
     Azure Advisor analyzes your resource configuration and usage telemetry and provides security recommendations.
  
- 
+* Azure Security Center
+  Provides you a single dashboard that surfaces threats, alerts and recommendations that can be acted upon immediately.
     
     
     
