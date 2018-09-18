@@ -1,6 +1,5 @@
 Azure [Security](https://docs.microsoft.com/en-us/azure/security/azure-security)
 
-
 These tools and capabilities help make it possible to create secure solutions on the secure Azure platform.
 
 * The built-in capabilities are organized in six (6) functional areas: 
@@ -35,5 +34,17 @@ These tools and capabilities help make it possible to create secure solutions on
 * Azure Security Center
   Provides you a single dashboard that surfaces threats, alerts and recommendations that can be acted upon immediately.
     
+##Applications
+ 
+ * Web Application vulnerability scanning
+   e.g test for vulnerabilities on your App Service app by using the integration with Tinfoil Security to perform one-click vulnerability scanning on your app. It provides report - and step by step instructions to fix them. 
+   
+ * Penetration Testing
+   a) Perform your own penetration tests or 
+   b) use another scanner suite or provider
+   c) you must follow the Azure penetration testing approval process and obtain prior approval to perform the desired penetration tests.
     
-    
+
+References:
+1)Refer https://docs.microsoft.com/en-us/azure/security/azure-security for links to steps in the above items
+2)
