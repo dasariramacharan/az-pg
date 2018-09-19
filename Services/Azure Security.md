@@ -44,6 +44,10 @@ These tools and capabilities help make it possible to create secure solutions on
    b) use another scanner suite or provider
    c) you must follow the Azure penetration testing approval process and obtain prior approval to perform the desired penetration tests.
     
+* Web Application firewall
+The web application firewall (WAF) in [Azure Application Gateway](https://azure.microsoft.com/services/application-gateway/) helps protect web applications from common web-based attacks like SQL injection, cross-site scripting attacks, and session hijacking.
+
+
 
 References:
 1)Refer https://docs.microsoft.com/en-us/azure/security/azure-security for links to steps in the above items
