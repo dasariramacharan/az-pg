@@ -7,11 +7,12 @@
                         Microsoft.Web => supplies resources related to web apps,
                         Microsoft.KeyVault =>  supplies vaults for creating the key vault
             
-   * Deploy resources with Resource Manager templates and using (any of the below)
-        * [Azure PowerShell](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy)
-        * [Azure CLI](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-cli)
-        * [Azure portal](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-portal)
-        * [Resource Manager REST API](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-rest)         
+   * Deploy resources using 
+     * Azure Resource Manager templates or ARM Templates
+     * [Azure PowerShell](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy)
+     * [Azure CLI](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-cli)
+     * [Azure portal](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-portal)
+     * [Resource Manager REST API](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-template-deploy-rest)         
 ## [Activity logs](https://docs.microsoft.com/en-au/azure/azure-resource-manager/resource-group-audit)
       Resource Manager logs all operations that create, modify, or delete a resource.
 You can use the activity logs to find an error when troubleshooting or to monitor how a user in your organization modified a resource.
@@ -34,3 +35,5 @@ Resource Manager provides a tagging feature that enables you to categorize resou
 Azure SDKs are available for multiple languages and platforms. e.g Azure SDK for .NET/JAVA/Node.js ,etc
 If the SDK doesn't provide the required functionality, you can also call to the Azure REST [API](https://docs.microsoft.com/rest/api/resources/) directly.
    
+##References
+* 
