@@ -42,7 +42,10 @@
   * Powershell with DSC
       * uses Powershell to achieve DSC in Microsoft stack
       * need to use declarative syntax to implement DSC
-      
+  * Powershell credential provider - to save credentials instead of typing credentials everytime
+  * 
+  
+  
 #Desired State Configuration (DSC) / 
   * its a cross platform concept (not just for windows)
   * Prevent server configuration drift
