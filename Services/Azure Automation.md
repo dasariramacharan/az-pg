@@ -50,8 +50,9 @@
   * can reuse existing powershell scripts
   * DSC Arch
       * Push - push our script to server
-      * Pull - push script central server and it pushes to required servers
-  *     
+      * Pull - push script central (pull) server and target machines pull from pull server.
+             - Azure automation can host the pull server 
+  * [Best Practices for DSC Powershell scripts](https://github.com/PowerShell/DscResources/blob/master/BestPractices.md)     
 
 Ref: 
   1) [Azure Automation in Depth: Runbook Authoring](https://azure.microsoft.com/en-au/blog/azure-automation-in-depth-runbook-authoring/)
