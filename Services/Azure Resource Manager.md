@@ -34,6 +34,12 @@ Resource Manager provides a tagging feature that enables you to categorize resou
 ##SDKs or REST API
 Azure SDKs are available for multiple languages and platforms. e.g Azure SDK for .NET/JAVA/Node.js ,etc
 If the SDK doesn't provide the required functionality, you can also call to the Azure REST [API](https://docs.microsoft.com/rest/api/resources/) directly.
-   
+
+##Tools
+* Use Azure REsource manager tools extension for vs code to get intellisense support
+* 
+
+
 ##References
+* [Quick start ARM templates that deploy on Microsoft Azure Stack] (http://aka.ms/AzureStackGitHub) or [Searc them](https://azure.microsoft.com/en-us/resources/templates/)
 * 
