@@ -37,8 +37,8 @@ If the SDK doesn't provide the required functionality, you can also call to the 
 
 ##Tools
 * Use Azure REsource manager tools extension for vs code to get intellisense support
+* [ARMVIZ website is a tool to visualise ARM templates and can also modify ARM using the same](http://armviz.io/)
 * 
-
 
 ##References
 * [Quick start ARM templates that deploy on Microsoft Azure Stack] (http://aka.ms/AzureStackGitHub) or [Searc them](https://azure.microsoft.com/en-us/resources/templates/)
