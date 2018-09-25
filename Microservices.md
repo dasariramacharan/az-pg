@@ -7,7 +7,7 @@
 
 [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md#microsoft-rest-api-guidelines-working-group)
 
-[MS API Design][https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design]
+[MS API Design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 [MS API Implementation](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-implementation)
 
 
